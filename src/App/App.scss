@@ -6,3 +6,10 @@
   font-family: "Kanit";
   text-decoration: none;
 }
+*::-webkit-scrollbar {
+  width: 0px;
+}
+.global-container {
+  max-width: 100vw;
+  overflow: hidden;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Link } from "react-router-dom";
-import { Nav, Navbar, NavbarCollapse } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 export default function Header() {
   return (

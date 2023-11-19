@@ -1,6 +1,19 @@
-.page-container{
-    position: relative;
-    .page-image-1{
-        pos
-    }
+.page-container {
+  position: relative;
+  background-color: #111111;
+  //   min-height: 100vh;
+  z-index: 1;
+  .page-image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    z-index: -1;
+  }
+  .page-image-2 {
+    position: absolute;
+    bottom: 0px;
+    right: -400px;
+    width: 600px;
+  }
 }

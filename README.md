@@ -1,2 +1,3 @@
 # React + Vite
-# Use ```npm run dev```
+# Use ```npm i
+npm run dev```

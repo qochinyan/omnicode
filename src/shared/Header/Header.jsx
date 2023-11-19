@@ -19,6 +19,11 @@ export default function Header() {
             AI Experts
           </Nav.Link>
         </Nav>
+        <div className="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </Navbar>
   );

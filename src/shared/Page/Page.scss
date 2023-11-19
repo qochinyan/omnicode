@@ -17,3 +17,11 @@
     width: 600px;
   }
 }
+@media (max-width: 800px) {
+  .page-container .page-image-1 {
+    width: 40vw;
+  }
+  .page-container .page-image-2 {
+    width: 30vw;
+  }
+}

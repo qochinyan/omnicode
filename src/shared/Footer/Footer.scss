@@ -28,7 +28,7 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    color:white;
+    color: white;
   }
   .footer-right {
     display: flex;
@@ -61,5 +61,19 @@
   .nav-right {
     display: flex;
     gap: 65px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-container {
+    padding: 0 10vw;
+  }
+}
+@media (max-width: 600px) {
+  .footer-container{
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer-container .footer-right{
+    display: none;
   }
 }
